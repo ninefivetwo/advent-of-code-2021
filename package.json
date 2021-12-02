@@ -14,6 +14,8 @@
     "scripts": {
         "test": "mocha -r esm \"./{,!(node_modules)/**}/*test.js\"",
         "lint": "eslint .",
-        "day1": "node -r esm day01-sonar-sweep/index.js"
+        "day0": "node -r esm .day00-template/index.js",
+        "day1": "node -r esm day01-sonar-sweep/index.js",
+        "day2": "node -r esm day02-dive/index.js"
     }
 }
