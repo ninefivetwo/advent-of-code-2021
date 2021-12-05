@@ -2,7 +2,7 @@ import { expect } from 'chai'
 
 import { playBingo, playLoserBingo } from './bingo'
 
-describe.only('Day04 - Giant Squid', function () {
+describe('Day04 - Giant Squid', function () {
     const sample1Sequence = [
         7, 4, 9, 5, 11, 17, 23, 2, 0, 14, 21, 24, 10, 16, 13, 6, 15, 25, 12, 22,
         18, 20, 8, 19, 3, 26, 1,
@@ -42,7 +42,7 @@ describe.only('Day04 - Giant Squid', function () {
     })
 
     describe('playLoserBingo', function () {
-        it.only('Sample data 1 - end of game', function () {
+        it('Sample data 1 - end of game', function () {
             const board = playLoserBingo(sample1Sequence, sample1Boards, 15)
             const sum = board.remainingSum
             const winner = board.winner
