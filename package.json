@@ -21,6 +21,7 @@
         "day4": "node -r esm day04-giant-squid/index.js",
         "day5": "node -r esm day05-hydrothermal-venture/index.js",
         "day6": "node -r esm day06-lanternfish/index.js",
-        "day7": "node -r esm day07-the-treachery-of-whales/index.js"
+        "day7": "node -r esm day07-the-treachery-of-whales/index.js",
+        "day8": "node -r esm day08-seven-segment-search/index.js"
     }
 }
