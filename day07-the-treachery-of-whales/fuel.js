@@ -20,5 +20,15 @@ const calculateFuelCost = (position, newPosition) => {
 }
 
 export const minAccumFuelUsage = (positions) => {
-    //
+    const maxPos = Math.max(...positions)
+    const minPos = Math.min(...positions)
+
+    const fuelCostsAtPositions = []
+    for (let i = minPos; i <= maxPos; i += 1) {
+        const fuelCosts = positions.map((pos) => calculateFuelCost(pos, i))
+        const totalFuel = fuelCosts.reduce((a, b) => a + b)
+        fuelCostsAtPositions.push(totalFuel)
+    }
+    const lowestFuelCost = Math.min(...fuelCostsAtPositions)
+    return lowestFuelCost
 }
