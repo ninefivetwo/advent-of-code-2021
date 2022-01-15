@@ -24,6 +24,7 @@
         "day7": "node -r esm day07-the-treachery-of-whales/index.js",
         "day8": "node -r esm day08-seven-segment-search/index.js",
         "day9": "node -r esm day09-smoke-basin/index.js",
-        "day10": "node -r esm day10-syntax-scoring/index.js"
+        "day10": "node -r esm day10-syntax-scoring/index.js",
+        "day11": "node -r esm day11-dumbo-octopus/index.js"
     }
 }
